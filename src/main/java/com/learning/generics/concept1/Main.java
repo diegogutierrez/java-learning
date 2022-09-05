@@ -1,4 +1,4 @@
-package com.learning.generics;
+package com.learning.generics.concept1;
 
 public class Main {
 
