@@ -22,7 +22,6 @@ public class MainCompletableFeature {
   }
 
   private static void combine() {
-
   }
 
   private static void simple() {
