@@ -5,15 +5,30 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Dishes {
 
   private static final Logger log = LoggerFactory.getLogger(Dishes.class);
 
   public static void main(String[] args) {
-    flatMap();
+//    flatMap();
+    Scanner scanner = new Scanner(System.in);
+    int op = -1;
+    do {
+      op = scanner.nextInt();
+      if (op == 1) {
+        create();
+        System.out.println("created");
+      } else {
+        System.out.println("invalid operation");
+      }
+    } while (op != 0);
+  }
+
+  private static Dish create() {
+    return new Dish("asd", false, 111, Dish.Type.FISH);
   }
 
   private static void flatMap() {

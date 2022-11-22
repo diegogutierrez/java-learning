@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
 
@@ -14,7 +13,7 @@ public class Main {
   public static void main(String[] args) {
 //    reduce();
 //    collect();
-    parallelStream();
+//    parallelStream();
   }
 
   private static void parallelStream() {
