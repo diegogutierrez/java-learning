@@ -21,7 +21,7 @@ public class VariableDeclarationMain {
 //    System.out.println(c);
 //    b = 1;
 
-    int a, b = 1;
-    int x = a + b;
+//    int a, b = 1;
+//    int x = a + b;
   }
 }
