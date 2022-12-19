@@ -21,7 +21,11 @@ public class VariableDeclarationMain {
 //    System.out.println(c);
 //    b = 1;
 
-//    int a, b = 1;
-//    int x = a + b;
+    //0 1 2 3
+    //0 0 0 1 => 8
+    //1 1 1 0 => 7
+    //bird = -7
+    //plane = -8
+    //superman = 10
   }
 }
