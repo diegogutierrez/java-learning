@@ -1,5 +1,7 @@
 package com.learning.practice;
 
+import java.time.DayOfWeek;
+
 public class PatternMatching {
 
   public static void main(String[] args) {
@@ -27,7 +29,6 @@ public class PatternMatching {
       System.out.println("not integer " + n);
       return;
     }
-    System.out.println(data.intValue());
 
     Object o = "asd";
     if (o instanceof String s && s.isEmpty()) {
