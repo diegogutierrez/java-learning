@@ -34,7 +34,6 @@ public class DatetimeMain {
 
     System.out.println(zoned);
     System.out.println(zoned.plusHours(1));
-    new StringBuilder().substring()
   }
 
   private static void duration() {
