@@ -5,8 +5,8 @@ public class OuterClass {
 
   private int x;
 
-  public/private/protected abstract/final class InnerClass1  extends SomeClass implements SomeInterface{
-    public void method() {
+  public class InnerClass1  extends Object implements Cloneable {
+    private void method() {
       System.out.println(OuterClass.this.x);
     }
   }

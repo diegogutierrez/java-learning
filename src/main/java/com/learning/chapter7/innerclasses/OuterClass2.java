@@ -11,7 +11,7 @@ public class OuterClass2 {
     aClass.innerMethod();
   }
 
-  public/private/protected static class InnerClass {
+  /*public/protect/private*/ /*abstract/final*/ static class InnerClass extends Object implements Cloneable {
     private String innerField;
 
     private void innerMethod() {
