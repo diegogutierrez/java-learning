@@ -1,6 +1,6 @@
 package com.learning.chapter8;
 
-public class Main {
+public class MethodReferences {
 
   @FunctionalInterface
   public interface StringCreator {
@@ -21,8 +21,8 @@ public class Main {
   public static void main(String[] args) {
     //reference to
     StringCreator sc1 = (value) -> value;// lambda
-    StringCreator sc2 = Main::create;//static method
-    StringCreatorClass instance = new Main().new StringCreatorClass();
+    StringCreator sc2 = MethodReferences::create;//static method
+    StringCreatorClass instance = new MethodReferences().new StringCreatorClass();
     StringCreator sc3 = instance::create;//instance method
     StringCreator sc4 = String::strip;//parameter method
     StringCreator sc5 = String::new;//constructor method
